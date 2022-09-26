@@ -1,0 +1,54 @@
+* Introduction
+This repository contains the start of your first machine learning assignment. It
+covers a few different skills:
+
+- How to work with git
+- How to import code from various files in Python
+- How to train and improve a simple machine learning model
+
+* Repository Contents
+#+begin_example
+Root
+ |
+ +-- README.org
+ |
+ +-- img/
+ |  |
+ |  +--
+ |
+ +-- src/
+ |  |
+ |  +-- utils.py
+ |  +-- modelling_template.py
+ |  |-- datasets/
+ |    |
+ |    +-- housing.csv
+#+end_example
+* Preparation
+- Make sure to have git installed
+- Clone this repository from its [[https://git.auc-computing.nl/david/housing-model][source]] to your local machine.
+
+* Assignment
+The purpose of this assignment is to experiment with, and make improvements to
+the basic model provided. We use the Mean Squared Error (MSE) to evaluate how
+big of an improvement has been made to the model. Similarly, we will use git to
+track changes made to the code, and share progress with each other.
+
+** Requirements
+As a minimum, you are expected to implement the following:
+- At least 1 method to scale or normalise the data & target variable
+- Use different columns in the data to predict median house value
+- Try different models, and compare their performance with linear regression
+- Try different values for hyper parameters (if your model has any) to see if
+  they influence the MSE.
+- Find and make use of a method to add the non-numeric features as input to your
+  model
+- Combine all your changes, experiments, and improvements into your 'final'
+  model, and reduce MSE by as much as possible.
+
+Besides this, we recommend experimenting with Git (making and merging branches),
+and to make good use of the documentation for scikit-learn to come up with some
+new ideas for the house value model!
+
+Each individual step above must be committed to git and pushed before Thursday
+October 28th at 23:59.
